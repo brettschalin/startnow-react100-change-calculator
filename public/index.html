@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <title>Change Calculator</title>
+
+  <style>
+    body {
+      /* Source: https://uigradients.com */
+      background: #3a7bd5;
+      background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+      background: linear-gradient(to right, #3a6073, #3a7bd5);
+    }
+    
+    .card {
+      background: -webkit-linear-gradient(to bottom, gold, goldenrod);
+      background: linear-gradient(to bottom, gold, goldenrod);
+    }
+    
+    /*Moves everything away from the edges of the page*/
+    .card > * {
+      margin: 5px;
+    }
+    .row {
+      margin: 0px;
+    }
+
+    .success {
+      background: rgba(0, 200, 0, 0.75);
+      padding: 5px
+    }
+
+    .failure {
+      background: rgba(255, 0, 0, 0.75);
+      padding: 5px;
+    }
+
+    .col-3>p:nth-child(2) {
+      background: rgb(200, 200, 255);
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    h1 {
+      text-align: center;
+    }
+    
+    #total-output {
+      text-align: center;
+      margin: 1em;
+    }
+    
+    #calculate-btn {
+	  margin: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>
